@@ -1,3 +1,11 @@
+	Tomcat + Jdk 
+OR
+	IIS
+---------------
+GIT - https://git-scm.com/downloads
+GitLab -> create free tier 
+Download - GitLab-Runner 
+--------------
 Lab3 - Maven - create new maven project -> Day2.demo2
             Write Calc.java 
                 public class Calc {
