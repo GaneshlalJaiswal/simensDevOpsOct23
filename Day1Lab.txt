@@ -8,9 +8,9 @@ Lab2 - Maven
             https://spring.io/guides/gs/spring-boot/
 
       MsBuild -> 
-
-            https://learn.microsoft.com/en-us/visualstudio/msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch?view=vs-2022
-      
+         https://learn.microsoft.com/en-us/visualstudio/msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch?view=vs-2022
+      go ->
+            https://opensource.com/article/22/4/go-build-options
       
 Lab1 - MicroServiecs
       2 Types 
