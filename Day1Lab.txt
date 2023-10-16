@@ -1,0 +1,20 @@
+Lab1 - MicroServiecs
+      2 Types 
+      	Desktop Application/Rich Client
+      		Resources -> Laptop
+      	Web Application/Thin Client
+      		Browser + Network
+      	Rich Internet Applications (RIA)
+      		
+      -------------------------
+      Exp
+      	Support -> Web 
+      			   Rich Client 
+      			   Mobile PLatforms 
+      		
+      -------------------------
+      Service Oriented Architecture (SOA)
+      
+      Within your application
+      	Micro Service
+     https://martinfowler.com/articles/microservices.html 	
