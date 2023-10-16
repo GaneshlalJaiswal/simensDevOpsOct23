@@ -1,3 +1,47 @@
+Lab3 - Maven - create new maven project -> Day2.demo2
+            Write Calc.java 
+                public class Calc {
+                        
+                        public int add(int no1, int no2) {
+                                    return no1 + no2;
+                        }
+\                        public int divide(String no1, String no2) {
+                                    int n1 = Integer.parseInt(no1);
+                                    int n2 = Integer.parseInt(no2);
+                                    return n1 / n2;
+                        }
+                        public static void main(String[] args) {
+                                    Calc c1 = new Calc();
+                                    System.out.println("Addition of 10 and 2 is  " + c1.add(10, 02));
+                                    System.out.println("Division of 10 and 2 is  " + c1.divide("10", "02"));
+                                    System.out.println("Division of 10 and a is  " + c1.divide("10", "a"));
+                                    System.out.println("Division of 10 and 0 is  " + c1.divide("10", "0"));
+                        }
+                        }
+            Modify pom file to include following snipet after </version> and before </project>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+				    <groupId>org.sonarsource.scanner.maven</groupId>
+				    <artifactId>sonar-maven-plugin</artifactId>
+				    <version>3.9.1.2184</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+            
+            on local machine (C:\work\sonarqube-6.7.7)
+                        startSonar from bin\windows-x86-64\ or any other os 
+
+            run as -> maven build -> goal -> sonar:sonar
+            Browser -> http://localhost:9000/projects/{projectname} or copy url from build messages
+
+       C#/C++
+                        https://www.evoketechnologies.com/blog/configure-sonarqube-dot-net-project/#:~:text=SonarQube%20is%20one%20of%20the,new%20plug%2Dins%20and%20customizations.
+            
+       Golang - https://docs.sonarsource.com/sonarqube/9.9/analyzing-source-code/languages/go/
+                        https://medium.com/@remast/go-for-sonarqube-ffff5b74f33a
 Lab2 - Maven
             create a simple maven project 
             Write helloworld.java 
