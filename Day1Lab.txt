@@ -18,3 +18,4 @@ Lab1 - MicroServiecs
       Within your application
       	Micro Service
      https://martinfowler.com/articles/microservices.html 	
+     https://medium.com/edureka/microservice-architecture-5e7f056b90f1
