@@ -1,3 +1,21 @@
+Lab3 - Git
+          create a new folder demo1, create two files a.txt, b.txt in demo1
+          cmd\demo1>git status 
+                    will give you error
+          cmd\demo1>git init 
+                    observe .git hidden folder created
+          cmd\demo1>git status 
+                    see untracked files
+          cmd\demo1>git add a.txt (shift a.txt from Working to Stage)
+                    Modify a.txt
+          cmd\demo1>git status  
+                    observe message of a.txt changed
+          cmd\demo1>git commit -m "firstcommit"
+          cmd>log, status, show
+          cmd\demo1>git add a.txt
+          cmd\demo1>git commit -m "second commit"
+          cmd>log, status, show
+
 Lab2 - Tomcat - ssl
           create ssl certificate in empty directory
                     keytool -genkeypair -alias myalias -keyalg RSA -keysize 1024 -validity 365 -keypass weblogic -storepass weblogic -keystore mysimple.jks
