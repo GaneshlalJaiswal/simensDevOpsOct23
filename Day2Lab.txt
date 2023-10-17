@@ -1,3 +1,26 @@
+Lab5 - create a repo on github web (tmp01)
+        on local machine 
+                    in empty folder
+                    git pull {url}
+                    create a file, add, commit	
+            cmd>git remote add demo11 https://github.com/Vaishali-Tapaswi/tmp01
+            cmd>git push demo11
+                    see login message, error
+      on github web -> account -> settings -> developer settings->Personal Access tokens -> Tokens 
+                    -> generate new token -> select repo access -> generate (copy token)
+            cmd>git remote set demo11 https://{token}@github.com/Vaishali-Tapaswi/tmp01
+            cmd>git push demo11
+      on github web -> for tmp01 -> observe two branches (main, master)
+
+          
+and then push using the remote name
+
+    git push tmp01
+	
+	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
+	https://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@github.com/Vaishali-Tapaswi/tmp01
+
+
 Lab4 - Create a new folder
           use git clone to get details of first (demo1) repo
           use status 
