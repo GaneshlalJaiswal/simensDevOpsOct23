@@ -1,3 +1,11 @@
+Lab 8- Gitlab
+	create new project -> blank project -> tmp01
+	visibility - private 
+	initialize repo
+	create project
+	build -> set up ci/cd -> helloWorld pipeline -> watch messagees 
+	
+
 Lab7 - jenkins -> jenkins plugins -> install git plugin
 	create a new project -> free -> source code ->
 		git - https://github.com/Vaishali-Tapaswi/tmp01
