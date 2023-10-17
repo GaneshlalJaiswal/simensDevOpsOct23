@@ -1,3 +1,13 @@
+Lab7 - jenkins -> jenkins plugins -> install git plugin
+	create a new project -> free -> source code ->
+		git - https://github.com/Vaishali-Tapaswi/tmp01
+			branch  - main
+		trigger -> poll scm -> H/3 * * * * 
+		steps -> dir
+			 set path=..\bin
+			 javac Hello.java
+			 java Hello
+
 Lab6 - Create two copies of same repo, modify same file, and push -> check error
 	create different branch, push and try to merge.
 Lab5 - create a repo on github web (tmp01)
