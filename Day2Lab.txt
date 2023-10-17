@@ -1,3 +1,5 @@
+Lab6 - Create two copies of same repo, modify same file, and push -> check error
+	create different branch, push and try to merge.
 Lab5 - create a repo on github web (tmp01)
         on local machine 
                     in empty folder
