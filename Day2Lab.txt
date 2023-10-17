@@ -1,0 +1,12 @@
+Lab1 - Tomcat - 
+          download sample.war ( https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/)
+          copy sample.war to c:\{tomcat}\webapps
+          cmd>cd {tomcat}\bin
+          cmd bin>catalina start 
+          Browser -> http://localhost:8080{port}/sample
+
+      IIS 
+        create a directory tmp (copy 1 html file(index.html))
+        IIS -> new site(tmp) -> map to directory, give port(check availability)
+                    start automatically
+             Browser -> http://localhost:{port}/tmp 
