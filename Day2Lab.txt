@@ -1,3 +1,10 @@
+Lab4 - Create a new folder
+          use git clone to get details of first (demo1) repo
+          use status 
+          modify a.txt
+          add, commit
+          use status 
+
 Lab3 - Git
           create a new folder demo1, create two files a.txt, b.txt in demo1
           cmd\demo1>git status 
