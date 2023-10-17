@@ -8,7 +8,7 @@ Lab5 - create a repo on github web (tmp01)
                     see login message, error
       on github web -> account -> settings -> developer settings->Personal Access tokens -> Tokens 
                     -> generate new token -> select repo access -> generate (copy token)
-            cmd>git remote set demo11 https://{token}@github.com/Vaishali-Tapaswi/tmp01
+            cmd>git remote set-url demo11 https://{token}@github.com/Vaishali-Tapaswi/tmp01
             cmd>git push demo11
       on github web -> for tmp01 -> observe two branches (main, master)
 
