@@ -1,3 +1,4 @@
+https://github.com/Vaishali-Tapaswi/JavawithTestcases
 Lab7 - create new project, import from url (github - https://github.com/Vaishali-Tapaswi/mavendemo)
         modify pipeline for 
             image -  (copy from templates)
