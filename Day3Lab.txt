@@ -1,3 +1,18 @@
+Lab2 - Modify yml file to create new job in build section, delete 1 job from testing
+       modify build job to compile and run java code 
+                     build-job:       # This job runs in the build stage, which runs first.
+                       stage: build
+                       image:
+                         name: eclipse-temurin:11.0.20.1_1-jdk-jammy
+                       script:
+                         - echo "Compiling the code..."
+                         - dir
+                         - javac Hello.java
+                         - echo "Compile complete."
+       run, debug, check logs
+       modify testing code to run java file 
+              java Hello
+
 Lab1 - GitLab (git)
        create a new group (Oct23)
        create a new project - {groupMay23}/Demo1
