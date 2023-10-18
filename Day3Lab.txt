@@ -1,3 +1,24 @@
+Lab4 - Variables(in yml)
+       create new project in same group
+       modify yml file to delete test stage and jobs
+       Create a global and a local variable (https://docs.gitlab.com/ee/ci/variables/)
+       on root level
+              variables:
+                MY_VAR_G : "A global variable IN ci yml file"
+       in job 
+              variables:
+                  B_JOB_L: "A BUILD job variable local"
+       in job script, just print 
+              echo "Variables are '$MY_VAR_G' and '$B_JOB_L'"
+
+Lab3 - Artifact for Hello.class
+       Modify build-job to include artifacts (https://docs.gitlab.com/ee/ci/jobs/job_artifacts.html)
+              artifacts:
+                  paths:
+                    - Hello.class
+       Run -> Hello.class (in test job, so success)
+       check download of artifacts
+
 Lab2 - Modify yml file to create new job in build section, delete 1 job from testing
        modify build job to compile and run java code 
                      build-job:       # This job runs in the build stage, which runs first.
@@ -11,7 +32,7 @@ Lab2 - Modify yml file to create new job in build section, delete 1 job from tes
                          - echo "Compile complete."
        run, debug, check logs
        modify testing code to run java file 
-              java Hello
+              java Hello (Observe error - Hello.class not found)
 
 
        public class Hello {
