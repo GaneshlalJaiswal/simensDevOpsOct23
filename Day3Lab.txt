@@ -1,3 +1,12 @@
+Lab7 - create new project, import from url (github - https://github.com/Vaishali-Tapaswi/mavendemo)
+        modify pipeline for 
+            image -  (copy from templates)
+            script - mvn compile
+        run -> successfully
+        modify code, create error, watch error messages
+        create new issue - assign to yourself, check todolist
+        modify code, resolve issue, check resolved issues
+    
 Lab6 - Check template for your language
     https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/lib/gitlab/ci/templates
       go, maven, dotnet
