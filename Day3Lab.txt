@@ -1,0 +1,19 @@
+Lab1 - GitLab (git)
+       create a new group (Oct23)
+       create a new project - {groupMay23}/Demo1
+          initialize with readme file
+       create CI/CD pipeline
+          edit yml file to delete sleep statements
+          commit -> check -> serial execution for stages
+                             parallel execution for jobs in a stage
+       modify yml file , check logs
+            1. change one job to include dir command 
+                (just to see files from gitrepo)
+            2. change one job to include javac 
+                    error 
+                    skipping of rest of the stages
+                    logs
+            
+    
+       
+      
